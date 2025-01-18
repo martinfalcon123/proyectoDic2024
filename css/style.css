@@ -19,7 +19,7 @@ header{
     background-color: #ececec;
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
 
 }
 header img{
@@ -35,33 +35,28 @@ header nav ul{
     gap: 1rem;/*separacion*/
 
 }
-.menu-hamburgueza{
-    display: none;
-}
-.menu-hamburgueza:checked + .ul-link{
+/*estilos de nosotros*/
+
+/*estilos de esteheader*/
+header div h2,p{
+    color:rgb(74, 77, 80);
+    
+
+    
     
 }
-.list-icon{
-    color: whitesmoke;
-    cursor: pointer;
+/*estilos del nav*/
 
-}
-.ul-link{
-    
-    flex-direction: column;
-    background-color: whitesmoke;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;    
-
-
-}
-.li-link{
+header div div nav a{
+    color: rgb(74, 77, 80);
     text-decoration: none;
+    display: block;
+
 }
+/* estilos de texto en el header*/
+
+
+
 
 /*estilos de main*/
 
@@ -95,7 +90,7 @@ main .img-blog2, main .img-5{
 
 @media screen and (min-width:600px) {
     header{
-        justify-content: space-between;
+        justify-content: center;
         padding-right: 1.5rem;
     }
     main{
@@ -108,9 +103,8 @@ main .img-blog2, main .img-5{
         padding: 1rem;
     }
     /*para que no se vea en tablet*/
-    .abrir-menu{
-        display: none;
-    }
+  
+   
   
 }
 
